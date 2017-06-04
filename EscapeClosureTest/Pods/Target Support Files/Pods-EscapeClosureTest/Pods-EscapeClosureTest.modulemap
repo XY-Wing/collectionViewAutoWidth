@@ -1,0 +1,6 @@
+framework module Pods_EscapeClosureTest {
+  umbrella header "Pods-EscapeClosureTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
