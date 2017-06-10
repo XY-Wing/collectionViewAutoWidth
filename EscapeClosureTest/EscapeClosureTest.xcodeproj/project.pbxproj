@@ -16,6 +16,8 @@
 		20099BBF1EE3DBD8009A8990 /* EscapeClosureTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20099BBE1EE3DBD8009A8990 /* EscapeClosureTestUITests.swift */; };
 		20099BCD1EE3E034009A8990 /* HeaderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20099BCC1EE3E034009A8990 /* HeaderFile.swift */; };
 		20099BCF1EE3E769009A8990 /* XYCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20099BCE1EE3E769009A8990 /* XYCollectionViewCell.swift */; };
+		2091EC421EEBEC840029CD4F /* XYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091EC411EEBEC840029CD4F /* XYViewController.swift */; };
+		2091EC441EEBF0720029CD4F /* XYTestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091EC431EEBF0720029CD4F /* XYTestCollectionViewCell.swift */; };
 		C70847D51E71A3D1E3B9859B /* Pods_EscapeClosureTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5746029EA2815DBB7B5C0CA9 /* Pods_EscapeClosureTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		20099BC01EE3DBD8009A8990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20099BCC1EE3E034009A8990 /* HeaderFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderFile.swift; sourceTree = "<group>"; };
 		20099BCE1EE3E769009A8990 /* XYCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYCollectionViewCell.swift; sourceTree = "<group>"; };
+		2091EC411EEBEC840029CD4F /* XYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYViewController.swift; sourceTree = "<group>"; };
+		2091EC431EEBF0720029CD4F /* XYTestCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTestCollectionViewCell.swift; sourceTree = "<group>"; };
 		5746029EA2815DBB7B5C0CA9 /* Pods_EscapeClosureTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EscapeClosureTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		792C9E2CC299A5A935B89196 /* Pods-EscapeClosureTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscapeClosureTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EscapeClosureTest/Pods-EscapeClosureTest.release.xcconfig"; sourceTree = "<group>"; };
 		9566D00E147258B2629388EE /* Pods-EscapeClosureTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscapeClosureTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EscapeClosureTest/Pods-EscapeClosureTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 				20099BA01EE3DBD8009A8990 /* ViewController.swift */,
 				20099BA21EE3DBD8009A8990 /* Main.storyboard */,
 				20099BCE1EE3E769009A8990 /* XYCollectionViewCell.swift */,
+				2091EC411EEBEC840029CD4F /* XYViewController.swift */,
+				2091EC431EEBF0720029CD4F /* XYTestCollectionViewCell.swift */,
 				20099BA51EE3DBD8009A8990 /* Assets.xcassets */,
 				20099BA71EE3DBD8009A8990 /* LaunchScreen.storyboard */,
 				20099BAA1EE3DBD8009A8990 /* Info.plist */,
@@ -341,7 +347,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20099BA11EE3DBD8009A8990 /* ViewController.swift in Sources */,
+				2091EC441EEBF0720029CD4F /* XYTestCollectionViewCell.swift in Sources */,
 				20099BCF1EE3E769009A8990 /* XYCollectionViewCell.swift in Sources */,
+				2091EC421EEBEC840029CD4F /* XYViewController.swift in Sources */,
 				20099BCD1EE3E034009A8990 /* HeaderFile.swift in Sources */,
 				20099B9F1EE3DBD8009A8990 /* AppDelegate.swift in Sources */,
 			);

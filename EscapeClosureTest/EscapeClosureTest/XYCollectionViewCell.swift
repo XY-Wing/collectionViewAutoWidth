@@ -20,9 +20,12 @@ class XYCollectionViewCell: UICollectionViewCell {
     
     
     var textLab: UILabel?
+//    var bgV: UIView?
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+//        backgroundColor = .red
         setupCellUI()
     }
     
@@ -42,6 +45,17 @@ class XYCollectionViewCell: UICollectionViewCell {
             make.bottom.equalTo(-5)
             make.right.lessThanOrEqualTo(contentView.snp.right).offset(-5)
         }
+        
+//        bgV = UIView()
+//        bgV!.backgroundColor = .blue
+//        contentView.addSubview(bgV!)
+//        bgV!.snp.makeConstraints { (make) in
+//            make.edges.equalTo(textLab!).inset(UIEdgeInsetsMake(-5, -10, -5, -10))
+//        }
+//        bgV!.layer.cornerRadius = 27 * 0.5
+//        bgV!.layer.masksToBounds = true
+//        bgV!.isHidden = true
+//        contentView.bringSubview(toFront: textLab!)
     }
     
     override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
@@ -56,4 +70,6 @@ class XYCollectionViewCell: UICollectionViewCell {
         
         return layoutAttributes
     }
+    
+
 }

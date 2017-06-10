@@ -9,3 +9,5 @@
 import Foundation
 import SnapKit
 
+let screenW: CGFloat = UIScreen.main.bounds.size.width
+let screenH: CGFloat = UIScreen.main.bounds.size.height
